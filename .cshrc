@@ -9,8 +9,8 @@ eval `direnv hook tcsh`
 
 powerline-daemon -q
 
-PYPKGPATH = `python -c "import site; print(site.getsitepackages()[0])"`
-source $PYPKGPATH/powerline/bindings/tcsh/powerline.tcsh
+set pypkgpath=`python -c "import site; print(site.getsitepackages()[0])"`
+source $pypkgpath/powerline/bindings/tcsh/powerline.tcsh
 
 cd ~/code
 
