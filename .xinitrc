@@ -23,5 +23,14 @@ if [ -f $usermodmap ]; then
     xmodmap $usermodmap
 fi
 
+xrandr --output HDMI-0 --left-of DVI-I-1
+
+tmux setenv -g -t main DISPLAY $DISPLAY
+
+firefox &
+pidgin &
+emacs &
 dunst &
+thunderbird 2> /dev/null &
+
 exec /usr/local/bin/dwm

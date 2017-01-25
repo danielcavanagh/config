@@ -1,5 +1,5 @@
 setenv LANG "en_AU.utf8"
-setenv PATH $PATH\:/sbin\:/usr/sbin\:/usr/local/bin\:/usr/X11/bin\:/usr/X11/sbin
+setenv PATH ~/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/usr/X11/bin:/usr/X11/sbin:/usr/bin:/usr/sbin:/bin:/sbin
 setenv EDITOR vim
 setenv PAGER more
 
@@ -13,13 +13,17 @@ source /usr/lib64/python2.7/site-packages/powerline/bindings/tcsh/powerline.tcsh
 
 cd ~/code
 
-tmux has -t main >& /dev/null
-if ($? == 1) then
-	tmux new -ds main
-	foreach i (`seq 1 9`)
-		tmux new-window -d
-	end
-	tmux select-window -t 1
-endif
+if ! $?DISPLAY then
+	startx
+else
+	tmux has -t main >& /dev/null
+	if $? == 1 then
+		tmux new -ds main
+		foreach i (`seq 1 9`)
+			tmux new-window -d
+		end
+		tmux select-window -t 1
+	endif
 
-if ! $?TMUX tmux a
+	if ! $?TMUX tmux a
+endif

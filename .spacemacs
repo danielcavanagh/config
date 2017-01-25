@@ -68,7 +68,10 @@ values."
      csharp-mode
      )
    ;; A list of packages and/or extensions that will not be install and loaded.
-   dotspacemacs-excluded-packages '()
+   dotspacemacs-excluded-packages
+   '(
+     drupal-mode
+     )
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
    ;; are declared in a layer which is not a member of
    ;; the list `dotspacemacs-configuration-layers'. (default t)
@@ -282,8 +285,6 @@ you should place your code here."
   (set 'projectile-switch-project-action 'neotree-projectile-action)
 
   (editorconfig-mode 1)
-
-  (spaceline-compile)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
