@@ -1,0 +1,13 @@
+*
+
+!.gitignore
+
+!.gitconfig
+!.cshrc
+!.tmux.conf
+!.xinitrc
+!.Xmodmap
+!.Xresources
+!.config/nvim
+!.vimrc
+!.vim/colors
