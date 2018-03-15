@@ -8,6 +8,14 @@
 !.xinitrc
 !.Xmodmap
 !.Xresources
-!.config/nvim
-!.vimrc
+
+!.config/
+.config/*
+!.config/nvim/
+!.config/nvim/**
+
+!.vim/
+.vim/*
 !.vim/colors
+
+!.vimrc
