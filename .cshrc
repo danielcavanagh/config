@@ -1,16 +1,18 @@
 setenv LANG "en_AU.utf8"
-setenv PATH ~/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/usr/X11/bin:/usr/X11/sbin:/usr/bin:/usr/sbin:/bin:/sbin
+setenv PATH $HOME/.config/composer/vendor/bin:$HOME/.rbenv/shims:$HOME/.config/yarn/global/node_modules/.bin:$HOME/.go/bin:/usr/local/bin:/usr/local/sbin:/usr/X11/bin:/usr/X11/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/bin/vendor_perl
 setenv EDITOR vim
 setenv PAGER more
+setenv GOPATH ~/.go
 
 bindkey -v
 
 eval `direnv hook tcsh`
 
-powerline-daemon -q
+#powerline-daemon -q
+#set pypkgpath=`python -c "import site; print(site.getsitepackages()[0])"`
+#source $pypkgpath/powerline/bindings/tcsh/powerline.tcsh
 
-set pypkgpath=`python -c "import site; print(site.getsitepackages()[0])"`
-source $pypkgpath/powerline/bindings/tcsh/powerline.tcsh
+alias dokku 'bash $HOME/code/dokku/contrib/dokku_client.sh'
 
 cd ~/code
 

@@ -23,11 +23,17 @@ if [ -f $usermodmap ]; then
     xmodmap $usermodmap
 fi
 
-xrandr --output HDMI-0 --left-of DVI-I-1
+xrandr --output HDMI-1 --primary
+xrandr --output DVI-I-1 --right-of HDMI-1
 
 tmux setenv -g -t main DISPLAY $DISPLAY
 
-st &
+firefox &
+nvim-qt &
+nvim-qt &
+nvim-qt &
+urxvt &
 dunst &
+dwms &
 
-exec /usr/local/bin/dwm
+exec dwm
