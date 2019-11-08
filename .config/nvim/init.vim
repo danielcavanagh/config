@@ -6,6 +6,8 @@ if has('nvim-0.1.5')
   set termguicolors " true 24-bit colours
 endif
 
+set guioptions=M
+
 set runtimepath+=~/.vim/bundles/repos/github.com/Shougo/dein.vim
 
 " Install our plugins
@@ -18,7 +20,7 @@ if dein#load_state('~/.vim/bundles')
   " Core editor plugins
   call dein#add('Shougo/vimproc.vim', { 'build': 'make' })
   if has('nvim')
-    call dein#add('Shougo/deoplete.nvim')
+    "call dein#add('Shougo/deoplete.nvim')
   endif
   call dein#add('Shougo/denite.nvim') 
   call dein#add('vim-ctrlspace/vim-ctrlspace')
@@ -29,7 +31,7 @@ if dein#load_state('~/.vim/bundles')
   " Version control and UI nicities
   call dein#add('mhinz/vim-signify')
   call dein#add('tpope/vim-fugitive')
-  call dein#add('vim-airline/vim-airline')
+  "call dein#add('vim-airline/vim-airline')
 
   " Linting etc.
   call dein#add('w0rp/ale')
@@ -48,6 +50,7 @@ if dein#load_state('~/.vim/bundles')
   call dein#add('vim-ruby/vim-ruby')
   call dein#add('rust-lang/rust.vim')
   call dein#add('racer-rust/vim-racer')
+  call dein#add('lumiliet/vim-twig')
   call dein#add('leafgarland/typescript-vim')
 
   " Colors
@@ -111,16 +114,15 @@ set writebackup
 
 " Saner cursor style
 set guicursor=n-v-c:block-Cursor/lCursor-blinkon0,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor
-set guifont=Noto\ Mono:h10
 
 " Core settings
 let mapleader = ' '
 let t_Co = 256
 
 " Airline settings
-let g:airline_theme = 'dracula'
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1 
+"let g:airline_theme = 'dracula'
+"let g:airline_powerline_fonts = 1
+"let g:airline#extensions#tabline#enabled = 1 
 
 " Misc. editing plugin settings
 let g:ale_sign_column_always = 1
@@ -175,8 +177,9 @@ nnoremap <leader>/ :call Swoop()<cr>
 vnoremap <leader>/ :call SwoopSelection()<cr>
 
 " Misc. remaps
-nnoremap <leader>y "*y
-nnoremap <leader>p "*p
+vnoremap <silent>y ygv
+xnoremap <silent>p "*p:let @+=@0<CR>:let @"=@0<CR>
+nnoremap <silent>x "_x
 
 nnoremap <silent><C-p> :CtrlSpace O<CR>
 nnoremap <silent><C-space> :CtrlSpace B<CR>
