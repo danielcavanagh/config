@@ -53,8 +53,9 @@ if dein#load_state('~/.vim/bundles')
   call dein#add('lumiliet/vim-twig')
   call dein#add('leafgarland/typescript-vim')
 
-  " Colors
   call dein#add('dracula/vim')
+  call dein#add('vim-vdebug/vdebug')
+
   call dein#end()
 
   filetype on
@@ -149,12 +150,15 @@ let g:CtrlSpaceSymbols = { "CS": "#", "Sin": "SIN", "All": "ALL",
                          \ "SRight": "]", "BM": "BM", "Help": "?",
                          \ "IV": "-", "IA": "*", "IM": "+",
                          \ "Dots": "..." }
-if executable("ag")
+
+if executable('ag')
   let g:CtrlSpaceGlobCommand = 'ag --nocolor -g ""'
 endif
-if executable("ack")
+if executable('ack')
   let g:CtrlSpaceGlobCommand = 'ack --nocolor -g ""'
 endif
+
+" let g:vdebug_keymap['run'] = '<leader>d'
 
 " Bubbling text using arrows keys
 nnoremap [e ddkP
@@ -171,6 +175,9 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+nnoremap <C-Tab> gt
+nnoremap <C-S-Tab> gT
 
 " Swooping keys
 nnoremap <leader>/ :call Swoop()<cr>

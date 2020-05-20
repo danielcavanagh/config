@@ -15,6 +15,9 @@ setenv GITLAB_PROJECT_ID "6161337"
 setenv PATH /usr/local/opt/ruby/bin:/Applications/MAMP/bin/php/php7.2.8/bin:/usr/local/bin:/usr/local/sbin:/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11/bin:/usr/X11/sbin:/usr/local/lib/ruby/gems/2.6.0/bin:./vendor/bin
 setenv MANPATH /usr/local/opt/erlang/lib/erlang/man:/usr/local/share/man:/usr/share/man
 
+setenv XDEBUG_CONFIG 'idekey=xdebug'
+setenv DRUSH_ALLOW_XDEBUG 1
+
 # check for gems and add the bin path to PATH
 set bin=`where gem`
 if ("$bin" != '') setenv PATH "$PATH":"`gem env | grep 'EXE.*DIR' | sed 's/^.*: //'`"
@@ -32,9 +35,6 @@ eval `direnv hook tcsh`
 # Platform.sh CLI configuration
 setenv PATH "$PATH":"$HOME/.platformsh/bin"
 # if ( test -f "$HOME/.platformsh/shell-config.rc" ) . "$HOME/.platformsh/shell-config.rc"
-
-docker-machine start default >& /dev/null
-eval `docker-machine env default`
 
 cd ~/code
 

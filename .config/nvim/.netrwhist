@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/dcavanagh1/code/plconnect-frontend'
+let g:netrw_dirhist_6='/Users/dcavanagh1/code/plconnect-frontend/.git'
+let g:netrw_dirhist_5='/Users/dcavanagh1/code/slq-collections/web/modules/custom/slq_fa_import/config/install'
+let g:netrw_dirhist_4='/Users/dcavanagh1/code/slq-collections'
+let g:netrw_dirhist_3='/Users/dcavanagh1/code/plconnect-frontend/src/app/modules/shared-services'
+let g:netrw_dirhist_2='/Users/dcavanagh1/code/plconnect-frontend/src/app/modules/shared-services/services'
+let g:netrw_dirhist_1='/Users/dcavanagh1/code/plconnect-frontend/src/app/modules/shared-services'
+let g:netrw_dirhist_0='/Users/dcavanagh1/code/plconnect-backend/.platform'
+let g:netrw_dirhist_9='/Users/dcavanagh1/code/slq-main/web/modules/contrib/commerce_webform_order/src'
+let g:netrw_dirhist_8='/Users/dcavanagh1/code/slq-main/web/modules/contrib/commerce_webform_order/src/Plugin/WebformHandler'
