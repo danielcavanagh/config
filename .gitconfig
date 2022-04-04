@@ -4,3 +4,12 @@
 	email = danielcavanagh85@gmail.com
 [credential]
 	helper = cache --timeout=86400
+[alias]
+	sw = switch
+	res = restore
+	fa = fetch -a
+	co = checkout
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main

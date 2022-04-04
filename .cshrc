@@ -5,18 +5,22 @@ bindkey -v
 setenv LANG "en_AU.UTF-8"
 setenv EDITOR vim
 setenv PAGER 'more -r'
+unsetenv HOST
 
 setenv GEM_HOME "$HOME/.gem"
+setenv GEM_PATH "$GEM_HOME"
 
 setenv GITLAB_API_ENDPOINT "https://gitlab.com/api/v4"
 setenv GITLAB_API_AUTH_TOKEN "DKhtKkdudCyrJ8qe_X9S"
 setenv GITLAB_PROJECT_ID "6161337"
 
-setenv PATH /usr/local/opt/ruby/bin:/Applications/MAMP/bin/php/php7.2.8/bin:/usr/local/bin:/usr/local/sbin:/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11/bin:/usr/X11/sbin:/usr/local/lib/ruby/gems/2.6.0/bin:./vendor/bin
+setenv PATH "$GEM_PATH/bin:/usr/local/opt/openjdk/bin:/usr/local/opt/ruby/bin:/Applications/MAMP/bin/php/php7.2.8/bin:/usr/local/bin:/usr/local/sbin:/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11/bin:/usr/X11/sbin:/usr/local/lib/ruby/gems/2.6.0/bin:./vendor/bin"
 setenv MANPATH /usr/local/opt/erlang/lib/erlang/man:/usr/local/share/man:/usr/share/man
 
 setenv XDEBUG_CONFIG 'idekey=xdebug'
 setenv DRUSH_ALLOW_XDEBUG 1
+setenv PHP_MEMORY_LIMIT -1
+setenv COMPOSER_MEMORY_LIMIT -1
 
 # check for gems and add the bin path to PATH
 set bin=`where gem`

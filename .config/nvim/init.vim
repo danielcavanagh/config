@@ -8,14 +8,14 @@ endif
 
 set guioptions=M
 
-set runtimepath+=~/.vim/bundles/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
 " Install our plugins
-if dein#load_state('~/.vim/bundles')
+if dein#load_state('~/.cache/dein')
   filetype off
 
-  call dein#begin('~/.vim/bundles')
-  call dein#add('~/.vim/bundles/repos/github.com/Shougo/dein.vim')
+  call dein#begin('~/.cache/dein')
+  call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 
   " Core editor plugins
   call dein#add('Shougo/vimproc.vim', { 'build': 'make' })
@@ -45,13 +45,14 @@ if dein#load_state('~/.vim/bundles')
   call dein#add('othree/html5.vim')
   call dein#add('jelera/vim-javascript-syntax')
   call dein#add('elzr/vim-json')
-  call dein#add('rcmdnk/vim-markdown')
   call dein#add('StanAngeloff/php.vim')
   call dein#add('vim-ruby/vim-ruby')
   call dein#add('rust-lang/rust.vim')
   call dein#add('racer-rust/vim-racer')
   call dein#add('lumiliet/vim-twig')
   call dein#add('leafgarland/typescript-vim')
+  call dein#add('iamcco/markdown-preview.nvim', {'on_ft': ['markdown', 'pandoc.markdown', 'rmd'],
+					\ 'build': 'sh -c "cd app && yarn install"' })
 
   call dein#add('dracula/vim')
   call dein#add('vim-vdebug/vdebug')
@@ -158,6 +159,7 @@ if executable('ack')
   let g:CtrlSpaceGlobCommand = 'ack --nocolor -g ""'
 endif
 
+" let g:vdebug_options.path_maps = { "/app": getcwd() }
 " let g:vdebug_keymap['run'] = '<leader>d'
 
 " Bubbling text using arrows keys
@@ -192,6 +194,7 @@ nnoremap <silent><C-p> :CtrlSpace O<CR>
 nnoremap <silent><C-space> :CtrlSpace B<CR>
 nnoremap <leader>u :UndotreeToggle<cr>
 nnoremap <leader>ev :vsp $MYVIMRC<cr>
-nnoremap <leader>ez :vsp ~/.zshrc<cr>
-nnoremap <leader>ex :vsp ~/.xmonad/xmonad.hs<cr>
+nnoremap <leader>es :vsp ~/.cshrc<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+
+nnoremap <leader>mp :MarkdownPreview<cr>
