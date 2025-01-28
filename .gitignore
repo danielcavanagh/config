@@ -3,3 +3,11 @@
 !/*rc
 !/*profile
 !/*.toml
+
+!/.local/
+/.local/*
+!/.local/share/
+/.local/share/*
+!/.local/share/tmux/
+/.local/share/tmux/*
+!/.local/share/tmux/resurrect/
