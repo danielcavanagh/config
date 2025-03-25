@@ -1,4 +1,6 @@
 ack
+composer
+fastfetch
 fd
 fish
 fzf
@@ -7,6 +9,7 @@ jq
 mise
 neovim
 notcurses
+php@8.3
 ripgrep
 starship
 tmux
@@ -15,14 +18,12 @@ wimlib
 chase/tap/awrit
 platformsh/tap/platformsh-cli
 shopify/shopify/shopify-cli
-alacritty
 browserstacklocal
 discord
 figma
 firefox
 gimp
 google-chrome
-iterm2
 keepassx
 kitty
 postman
