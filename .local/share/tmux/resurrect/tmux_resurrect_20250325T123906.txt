@@ -1,0 +1,183 @@
+pane	15	1	1	:*	1	~/c/mapping-future-brisbane	:/Users/DCavanagh1/code/mapping-future-brisbane	1	fish	:
+pane	15	2	0	:-	1	~/c/mapping-future-brisbane	:/Users/DCavanagh1/code/mapping-future-brisbane	1	fish	:
+pane	80hz	1	1	:*	1	~/c/80hz	:/Users/DCavanagh1/code/80hz	1	fish	:<defunct>
+pane	80hz	2	0	:	1	~/c/80hz	:/Users/DCavanagh1/code/80hz	1	fish	:<defunct>
+pane	80hz	3	0	:-	1	~/c/80hz	:/Users/DCavanagh1/code/80hz	1	fish	:<defunct>
+pane	anzac	1	0	:-	1	~/c/anzac	:/Users/DCavanagh1/code/anzac	1	fish	:<defunct>
+pane	anzac	2	1	:*	1	nvim ~/c/a/backend	:/Users/DCavanagh1/code/anzac/backend	1	nvim	:nvim
+pane	anzac	3	0	:	1	~/c/a/backend	:/Users/DCavanagh1/code/anzac/backend	1	fish	:<defunct>
+pane	anzac	4	0	:	1	nvim ~/c/a/frontend	:/Users/DCavanagh1/code/anzac/frontend	1	nvim	:nvim
+pane	anzac	5	0	:	1	~/c/a/frontend	:/Users/DCavanagh1/code/anzac/frontend	1	fish	:<defunct>
+pane	anzac	6	0	:	1	~/c/a/frontend	:/Users/DCavanagh1/code/anzac/frontend	1	fish	:<defunct>
+pane	anzac	7	0	:	1	~/c/a/frontend	:/Users/DCavanagh1/code/anzac/frontend	1	fish	:<defunct>
+pane	cc	1	0	:-	1	~/c/cc	:/Users/DCavanagh1/code/cc	1	fish	:<defunct>
+pane	cc	2	0	:	1	~/c/c/backend	:/Users/DCavanagh1/code/cc/backend	1	fish	:<defunct>
+pane	cc	3	0	:	1	~/c/c/backend	:/Users/DCavanagh1/code/cc/backend	1	fish	:<defunct>
+pane	cc	4	0	:	1	nvim ../.platform/ro ~/c/c/frontend	:/Users/DCavanagh1/code/cc/frontend	1	nvim	:nvim ../.platform/routes.yaml
+pane	cc	5	1	:*	1	~/c/c/frontend	:/Users/DCavanagh1/code/cc/frontend	1	fish	:<defunct>
+pane	cc	6	0	:	1	~/c/c/frontend	:/Users/DCavanagh1/code/cc/frontend	1	fish	:<defunct>
+pane	cc	7	0	:	1	~/c/c/b/w/m/c/simple_oauth	:/Users/DCavanagh1/code/cc/backend/web/modules/contrib/simple_oauth	1	fish	:<defunct>
+pane	collections	1	0	:	1	~/c/c/viewer	:/Users/DCavanagh1/code/collections/viewer	1	fish	:<defunct>
+pane	collections	2	1	:*	1	~/c/c/ada	:/Users/DCavanagh1/code/collections/ada	1	fish	:<defunct>
+pane	collections	3	0	:-	1	~/c/c/ada	:/Users/DCavanagh1/code/collections/ada	1	fish	:<defunct>
+pane	collections	4	0	:	1	~/c/c/viewer	:/Users/DCavanagh1/code/collections/viewer	1	fish	:<defunct>
+pane	collections	5	0	:	1	~/c/c/viewer	:/Users/DCavanagh1/code/collections/viewer	1	fish	:<defunct>
+pane	collections	6	0	:	1	~/c/collections	:/Users/DCavanagh1/code/collections	1	fish	:<defunct>
+pane	collections	7	0	:	1	~/c/collections	:/Users/DCavanagh1/code/collections	1	fish	:<defunct>
+pane	collections	8	0	:	1	~/c/collections	:/Users/DCavanagh1/code/collections	1	fish	:<defunct>
+pane	collections	9	0	:	1	~/c/collections	:/Users/DCavanagh1/code/collections	1	fish	:<defunct>
+pane	corley	1	1	:*	1	~	:/Users/DCavanagh1	1	fish	:
+pane	corley	2	0	:	1	~	:/Users/DCavanagh1	1	fish	:<defunct>
+pane	corley	3	0	:-	1	~	:/Users/DCavanagh1	1	fish	:
+pane	explorer	1	0	:	1	nvim ~/.config/fish/ ~/c/explorer	:/Users/DCavanagh1/code/explorer	1	nvim	:<defunct>
+nvim /Users/DCavanagh1/.config/fish/functions/composer-update-all.fish
+pane	explorer	2	0	:-	1	nvim ~/c/e/backend	:/Users/DCavanagh1/code/explorer/backend	1	nvim	:<defunct>
+nvim
+pane	explorer	3	1	:*	1	~/c/e/backend	:/Users/DCavanagh1/code/explorer/backend	1	fish	:
+pane	explorer	4	0	:	1	nvim ~/c/e/epw	:/Users/DCavanagh1/code/explorer/epw	1	nvim	:<defunct>
+nvim
+pane	explorer	5	0	:	1	~/c/e/epw	:/Users/DCavanagh1/code/explorer/epw	1	fish	:<defunct>
+pane	flip-book	1	1	:*	1	~/c/flip-book	:/Users/DCavanagh1/code/flip-book	1	fish	:
+pane	flip-book	2	0	:	1	~	:/Users/DCavanagh1	1	fish	:
+pane	flip-book	3	0	:	1	~	:/Users/DCavanagh1	1	fish	:
+pane	flip-book	4	0	:	1	~/c/flip-book	:/Users/DCavanagh1/code/flip-book	1	fish	:
+pane	flip-book	5	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:
+pane	flip-book	6	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:
+pane	flip-book	7	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:<defunct>
+pane	flip-book	8	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:
+pane	flip-book	9	0	:-	1	~/code	:/Users/DCavanagh1/code	1	fish	:
+pane	gim	1	1	:*	1	~/c/gim	:/Users/DCavanagh1/code/gim	1	fish	:
+pane	gim	2	0	:	1	~/c/gim	:/Users/DCavanagh1/code/gim	1	fish	:
+pane	gim	3	0	:-	1	~/c/spas	:/Users/DCavanagh1/code/spas	1	fish	:
+pane	leaders	1	0	:	1	~/c/leaders	:/Users/DCavanagh1/code/leaders	1	fish	:<defunct>
+pane	leaders	2	0	:-	1	nvim ~/c/l/backend	:/Users/DCavanagh1/code/leaders/backend	1	nvim	:<defunct>
+nvim
+pane	leaders	3	1	:*	1	~/c/l/backend	:/Users/DCavanagh1/code/leaders/backend	1	fish	:nvim f
+nvim f
+nvim f
+pane	leaders	4	0	:	1	nvim ~/c/l/frontend	:/Users/DCavanagh1/code/leaders/frontend	1	nvim	:nvim
+pane	leaders	5	0	:	1	~/c/l/frontend	:/Users/DCavanagh1/code/leaders/frontend	1	fish	:
+pane	main	0	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:
+pane	main	1	1	:*	1	~/c/spas-alt	:/Users/DCavanagh1/code/spas-alt	1	fish	:<defunct>
+pane	main	2	0	:-	1	~/c/composer	:/Users/DCavanagh1/code/composer	1	fish	:<defunct>
+pane	main	3	0	:	1	~/c/composer	:/Users/DCavanagh1/code/composer	1	fish	:<defunct>
+pane	main	4	0	:	1	~/c/drupal	:/Users/DCavanagh1/code/drupal	1	fish	:
+pane	main	5	0	:	1	~/c/drupal	:/Users/DCavanagh1/code/drupal	1	fish	:<defunct>
+pane	main	6	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:
+pane	main	7	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:
+pane	main	8	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:<defunct>
+pane	main	9	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:
+pane	main	10	0	:	1	~	:/Users/DCavanagh1	1	fish	:
+pane	main	11	0	:	1	~	:/Users/DCavanagh1	1	fish	:
+pane	main	12	0	:	1	~/code	:/Users/DCavanagh1/code	1	fish	:<defunct>
+pane	plc	1	1	:*	1	~/c/plconnect	:/Users/DCavanagh1/code/plconnect	1	fish	:
+pane	plc	2	0	:	1	nvim ~/c/p/backend	:/Users/DCavanagh1/code/plconnect/backend	1	nvim	:nvim
+pane	plc	3	0	:	1	~/c/p/backend	:/Users/DCavanagh1/code/plconnect/backend	1	fish	:
+pane	plc	4	0	:	1	~/c/p/frontend	:/Users/DCavanagh1/code/plconnect/frontend	1	fish	:
+pane	plc	5	0	:	1	~/c/p/frontend	:/Users/DCavanagh1/code/plconnect/frontend	1	fish	:
+pane	plc	6	0	:-	1	~/c/plconnect	:/Users/DCavanagh1/code/plconnect	1	fish	:
+pane	reading-club	1	1	:*	1	~	:/Users/DCavanagh1	1	fish	:
+pane	reading-club	2	0	:	1	~	:/Users/DCavanagh1	1	fish	:
+pane	reading-club	3	0	:	1	~	:/Users/DCavanagh1	1	fish	:
+pane	reading-club	4	0	:	1	~	:/Users/DCavanagh1	1	fish	:
+pane	reading-club	5	0	:-	1	~	:/Users/DCavanagh1	1	fish	:
+pane	shop	1	1	:*	1	~/c/shop	:/Users/DCavanagh1/code/shop	1	fish	:
+pane	shop	2	0	:-	1	~/c/shop	:/Users/DCavanagh1/code/shop	1	fish	:
+pane	shop	3	0	:	1	~	:/Users/DCavanagh1	1	fish	:
+pane	slq-main	1	0	:	1	~/c/slq-main	:/Users/DCavanagh1/code/slq-main	1	fish	:<defunct>
+pane	slq-main	2	0	:	1	nvim ~/c/s/backend	:/Users/DCavanagh1/code/slq-main/backend	1	nvim	:nvim
+<defunct>
+pane	slq-main	3	1	:*	1	~/c/s/backend	:/Users/DCavanagh1/code/slq-main/backend	1	fish	:<defunct>
+pane	slq-main	4	0	:	1	nvim ~/c/s/frontend	:/Users/DCavanagh1/code/slq-main/frontend	1	nvim	:nvim
+pane	slq-main	5	0	:-	1	npm run start:main ~/c/s/frontend	:/Users/DCavanagh1/code/slq-main/frontend	1	node	:<defunct>
+npm run start:main   
+pane	slq-main	6	0	:	1	~/c/s/frontend	:/Users/DCavanagh1/code/slq-main/frontend	1	fish	:
+pane	slq-main	7	0	:	1	~/c/slq-main	:/Users/DCavanagh1/code/slq-main	1	fish	:
+window	15	1	:fish	1	:*	c59e,240x75,0,0,1	:
+window	15	2	:fish	0	:-	c59f,240x75,0,0,2	:
+window	80hz	1	:fish	1	:*	c5a0,240x75,0,0,3	:
+window	80hz	2	:fish	0	:	c5a1,240x75,0,0,4	:
+window	80hz	3	:fish	0	:-	c5a2,240x75,0,0,5	:
+window	anzac	1	:fish	0	:-	bc63,274x72,0,0,6	:
+window	anzac	2	:nvim	1	:*	bc64,274x72,0,0,7	:
+window	anzac	3	:fish	0	:	c5a5,240x75,0,0,8	:
+window	anzac	4	:nvim	0	:	c5a6,240x75,0,0,9	:
+window	anzac	5	:fish	0	:	62ff,240x75,0,0,10	:
+window	anzac	6	:fish	0	:	6300,240x75,0,0,11	:
+window	anzac	7	:fish	0	:	6301,240x75,0,0,12	:
+window	cc	1	:fish	0	:-	6302,240x75,0,0,13	:
+window	cc	2	:fish	0	:	6303,240x75,0,0,14	:
+window	cc	3	:fish	0	:	6304,240x75,0,0,15	:
+window	cc	4	:nvim	0	:	6305,240x75,0,0,16	:
+window	cc	5	:fish	1	:*	6306,240x75,0,0,17	:
+window	cc	6	:fish	0	:	6307,240x75,0,0,18	:
+window	cc	7	:fish	0	:	6308,240x75,0,0,19	:
+window	collections	1	:fish	0	:	e2ff,240x75,0,0,20	:
+window	collections	2	:fish	1	:*	e300,240x75,0,0,21	:
+window	collections	3	:fish	0	:-	e301,240x75,0,0,22	:
+window	collections	4	:fish	0	:	e302,240x75,0,0,23	:
+window	collections	5	:fish	0	:	e303,240x75,0,0,24	:
+window	collections	6	:fish	0	:	e304,240x75,0,0,25	:
+window	collections	7	:fish	0	:	e305,240x75,0,0,26	:
+window	collections	8	:fish	0	:	e306,240x75,0,0,27	:
+window	collections	9	:fish	0	:	e307,240x75,0,0,28	:
+window	corley	1	:fish	1	:*	e308,240x75,0,0,29	:
+window	corley	2	:fish	0	:	6300,240x75,0,0,30	:
+window	corley	3	:fish	0	:-	6301,240x75,0,0,31	:
+window	explorer	1	:nvim	0	:	5c62,274x71,0,0,32	:
+window	explorer	2	:nvim	0	:-	5c63,274x71,0,0,33	:
+window	explorer	3	:fish	1	:*	5c64,274x71,0,0,34	:
+window	explorer	4	:nvim	0	:	5e65,274x72,0,0,35	:
+window	explorer	5	:fish	0	:	5e66,274x72,0,0,36	:
+window	flip-book	1	:fish	1	:*	6307,240x75,0,0,37	:
+window	flip-book	2	:fish	0	:	6308,240x75,0,0,38	:
+window	flip-book	3	:fish	0	:	6309,240x75,0,0,39	:
+window	flip-book	4	:fish	0	:	e300,240x75,0,0,40	:
+window	flip-book	5	:fish	0	:	e301,240x75,0,0,41	:
+window	flip-book	6	:fish	0	:	e302,240x75,0,0,42	:
+window	flip-book	7	:fish	0	:	e303,240x75,0,0,43	:
+window	flip-book	8	:fish	0	:	e304,240x75,0,0,44	:
+window	flip-book	9	:fish	0	:-	e305,240x75,0,0,45	:
+window	gim	1	:fish	1	:*	e306,240x75,0,0,46	:
+window	gim	2	:fish	0	:	e307,240x75,0,0,47	:
+window	gim	3	:fish	0	:-	e308,240x75,0,0,48	:
+window	leaders	1	:fish	0	:	de69,274x72,0,0,49	:
+window	leaders	2	:nvim	0	:-	5e61,274x72,0,0,50	:
+window	leaders	3	:fish	1	:*	5e62,274x72,0,0,51	:
+window	leaders	4	:nvim	0	:	5e63,274x72,0,0,52	:
+window	leaders	5	:fish	0	:	5e64,274x72,0,0,53	:
+window	main	0	:fish	0	:	6305,240x75,0,0,54	on
+window	main	1	:fish	1	:*	5e66,274x72,0,0,55	on
+window	main	2	:fish	0	:-	5e67,274x72,0,0,56	:
+window	main	3	:fish	0	:	5e68,274x72,0,0,57	on
+window	main	4	:fish	0	:	5e69,274x72,0,0,58	on
+window	main	5	:fish	0	:	5e6a,274x72,0,0,59	on
+window	main	6	:fish	0	:	de61,274x72,0,0,60	on
+window	main	7	:fish	0	:	e302,240x75,0,0,61	on
+window	main	8	:fish	0	:	e303,240x75,0,0,62	on
+window	main	9	:fish	0	:	e304,240x75,0,0,63	on
+window	main	10	:fish	0	:	de65,274x72,0,0,64	:
+window	main	11	:fish	0	:	e306,240x75,0,0,65	:
+window	main	12	:fish	0	:	de69,274x72,0,0,87	:
+window	plc	1	:fish	1	:*	e307,240x75,0,0,66	:
+window	plc	2	:nvim	0	:	e308,240x75,0,0,67	:
+window	plc	3	:fish	0	:	e309,240x75,0,0,68	:
+window	plc	4	:fish	0	:	e30a,240x75,0,0,69	:
+window	plc	5	:fish	0	:	6302,240x75,0,0,70	:
+window	plc	6	:fish	0	:-	6303,240x75,0,0,71	:
+window	reading-club	1	:fish	1	:*	6304,240x75,0,0,72	:
+window	reading-club	2	:fish	0	:	6305,240x75,0,0,73	on
+window	reading-club	3	:fish	0	:	6306,240x75,0,0,74	on
+window	reading-club	4	:fish	0	:	6307,240x75,0,0,75	:
+window	reading-club	5	:fish	0	:-	6308,240x75,0,0,76	:
+window	shop	1	:fish	1	:*	6309,240x75,0,0,77	:
+window	shop	2	:fish	0	:-	630a,240x75,0,0,78	:
+window	shop	3	:fish	0	:	630b,240x75,0,0,79	:
+window	slq-main	1	:fish	0	:	dc62,274x71,0,0,80	:
+window	slq-main	2	:nvim	0	:	dc63,274x71,0,0,81	:
+window	slq-main	3	:fish	1	:*	dc64,274x71,0,0,82	:
+window	slq-main	4	:nvim	0	:	dc65,274x71,0,0,83	:
+window	slq-main	5	:node	0	:-	dc66,274x71,0,0,84	:
+window	slq-main	6	:fish	0	:	e307,240x75,0,0,85	:
+window	slq-main	7	:fish	0	:	e308,240x75,0,0,86	:
+state	slq-main	explorer

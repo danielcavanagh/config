@@ -1,6 +1,6 @@
 brew shellenv | source
 
-/opt/homebrew/opt/mise/bin/mise activate fish | source
+$HOMEBREW_PREFIX/opt/mise/bin/mise activate fish | source
 
 if status is-interactive
   #cd ~/code

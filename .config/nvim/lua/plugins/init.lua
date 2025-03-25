@@ -1,41 +1,36 @@
 return {
   { 'akinsho/bufferline.nvim', enabled = false },
 
-  { 'williamboman/mason.nvim' },
+  { 'nyoom-engineering/oxocarbon.nvim' },
+  { 'olivercederborg/poimandres.nvim' },
+  { "LazyVim/LazyVim", opts = { colorscheme = 'poimandres' }},
 
   {
-    'mfussenegger/nvim-dap',
-    opts = function ()
-      local dap = require("dap")
-      local path = require("mason-registry").get_package("php-debug-adapter"):get_install_path()
-      dap.adapters.php = {
-        type = "executable",
-        command = "node",
-        args = { path .. "/extension/out/phpDebug.js" },
-      }
-    end,
+    "williamboman/mason.nvim",
   },
 
   {
     'jay-babu/mason-nvim-dap.nvim',
-    automatic_setup = true,
+
+    ensure_installed = { 'php' },
+
     handlers = {
       function (c)
         require('mason-nvim-dap').default_setup(c)
       end,
+
       php = function (c)
         c.configurations = {
           {
             type = 'php',
             request = 'launch',
-            name = "Listen for XDebug",
+            name = 'xdebug',
             port = 9003,
             pathMappings = {
               ['/app/'] = vim.fn.getcwd() .. '/',
             },
           }
         }
-
         require('mason-nvim-dap').default_setup(c)
       end,
     },
@@ -43,7 +38,6 @@ return {
 
   {
     'lucasartore/nvim-dap-exception-breakpoints',
-    dependencies = { 'mfussenegger/nvim-dap' },
 
     config = function()
       vim.api.nvim_set_keymap(
