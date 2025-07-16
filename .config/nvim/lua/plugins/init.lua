@@ -1,9 +1,15 @@
 return {
-  { 'akinsho/bufferline.nvim', enabled = false },
+  {
+    'baliestri/aura-theme',
+    lazy = false,
+    priority = 1000,
+    config = function(plugin)
+      vim.opt.rtp:append(plugin.dir .. '/packages/neovim')
+      vim.cmd([[colorscheme aura-dark]])
+    end
+  },
 
-  { 'nyoom-engineering/oxocarbon.nvim' },
-  { 'olivercederborg/poimandres.nvim' },
-  { "LazyVim/LazyVim", opts = { colorscheme = 'poimandres' }},
+  { 'akinsho/bufferline.nvim', enabled = false },
 
   {
     "williamboman/mason.nvim",
